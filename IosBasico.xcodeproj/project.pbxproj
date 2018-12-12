@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5719436821C0758A00392456 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5719436721C0758A00392456 /* Card.swift */; };
+		5719436A21C075B100392456 /* MemoryGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5719436921C075B100392456 /* MemoryGame.swift */; };
 		57D3AE8121BF21E800938242 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D3AE8021BF21E800938242 /* AppDelegate.swift */; };
 		57D3AE8321BF21E800938242 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D3AE8221BF21E800938242 /* ViewController.swift */; };
 		57D3AE8621BF21E800938242 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57D3AE8421BF21E800938242 /* Main.storyboard */; };
@@ -15,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5719436721C0758A00392456 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		5719436921C075B100392456 /* MemoryGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryGame.swift; sourceTree = "<group>"; };
 		57D3AE7D21BF21E800938242 /* IosBasico.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IosBasico.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		57D3AE8021BF21E800938242 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		57D3AE8221BF21E800938242 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -35,6 +39,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5719436621C0756500392456 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5719436721C0758A00392456 /* Card.swift */,
+				5719436921C075B100392456 /* MemoryGame.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		57D3AE7421BF21E800938242 = {
 			isa = PBXGroup;
 			children = (
@@ -54,9 +67,10 @@
 		57D3AE7F21BF21E800938242 /* IosBasico */ = {
 			isa = PBXGroup;
 			children = (
+				5719436621C0756500392456 /* Model */,
 				57D3AE8021BF21E800938242 /* AppDelegate.swift */,
-				57D3AE8221BF21E800938242 /* ViewController.swift */,
 				57D3AE8421BF21E800938242 /* Main.storyboard */,
+				57D3AE8221BF21E800938242 /* ViewController.swift */,
 				57D3AE8721BF21E900938242 /* Assets.xcassets */,
 				57D3AE8921BF21E900938242 /* LaunchScreen.storyboard */,
 				57D3AE8C21BF21E900938242 /* Info.plist */,
@@ -136,6 +150,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				57D3AE8321BF21E800938242 /* ViewController.swift in Sources */,
+				5719436821C0758A00392456 /* Card.swift in Sources */,
+				5719436A21C075B100392456 /* MemoryGame.swift in Sources */,
 				57D3AE8121BF21E800938242 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
