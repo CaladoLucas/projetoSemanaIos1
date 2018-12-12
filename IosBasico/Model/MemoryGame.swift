@@ -21,6 +21,22 @@ class MemoryCard  {
     
     
     func chooseCard(at index: Int){
-        cards[index].isFaceUp = !cards[index].isFaceUp
+        let cardsUp = cards.indices.filter({cards[$0].isFaceUp})
+        let currentFaceUpIndex = cardsUp.count == 1 ? cardsUp.first : nil
+        
+        if !cards[index].isMatched{
+            if let matchIndex = currentFaceUpIndex {
+                if matchIndex != index && cards[index].id == cards[matchIndex].id{
+                    cards[index].isMatched = true
+                    cards[matchIndex].isMatched = true
+                }
+            }
+            cards[index].isFaceUp = true
+        }else{
+            for i in cards.indices {
+                cards[i].isFaceUp = (i == index)
+            }
+        }
+//        cards[index].isFaceUp = !cards[index].isFaceUp
     }
 }

@@ -38,7 +38,10 @@ class ViewController: UIViewController {
     func updateGameBoard(){
         for index in cards.indices{
             let card = game.cards[index]
-            if game.cards[index].isFaceUp {
+            if card.isMatched{
+                cards[index].setTitle("", for: UIControl.State.normal)
+                cards[index].backgroundColor = #colorLiteral(red: 1, green: 1, blue: 1, alpha: 0)
+            }else if game.cards[index].isFaceUp {
                 cards[index].setTitle(selectEmoticon(for: card.id), for: UIControl.State.normal)
             } else {
                 cards[index].setTitle("", for: UIControl.State.normal)
