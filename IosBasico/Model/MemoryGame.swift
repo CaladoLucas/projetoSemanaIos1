@@ -31,7 +31,12 @@ class MemoryCard  {
                     cards[matchIndex].isMatched = true
                 }
             }
-            cards[index].isFaceUp = true
+            if cards[index].isFaceUp == true {
+                cards[index].isFaceUp = false
+            }else{
+                cards[index].isFaceUp = true
+            }
+            
         }else{
             for i in cards.indices {
                 cards[i].isFaceUp = (i == index)
