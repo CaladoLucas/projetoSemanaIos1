@@ -16,14 +16,14 @@ class ViewController: VCLLoggingViewController {
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if let secondView = segue.destination as? SecondViewController{
-            secondView.enois = "uhuhuuh"
+            secondView.enois = "oi"
         }
     }
 
     @IBAction func antes(_ sender: UIButton) {
-        let alertController = UIAlertController(title: "öxente", message: "minini", preferredStyle: .alert)
-        alertController.addAction(UIAlertAction( title: "oxe", style: .default))
-        alertController.addAction(UIAlertAction( title: "xesque", style: .destructive, handler: enois))
+        let alertController = UIAlertController(title: "oxente", message: "minini", preferredStyle: .alert)
+        alertController.addAction(UIAlertAction( title: "sim", style: .default))
+        alertController.addAction(UIAlertAction( title: "não", style: .destructive, handler: enois))
         
         self.present(alertController, animated: true)
     }
