@@ -12,6 +12,8 @@
 		57091DA221E4092200F99A7B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57091DA021E4092200F99A7B /* Main.storyboard */; };
 		57091DA421E4092300F99A7B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57091DA321E4092300F99A7B /* Assets.xcassets */; };
 		57091DA721E4092300F99A7B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57091DA521E4092300F99A7B /* LaunchScreen.storyboard */; };
+		57091DAF21E40E5D00F99A7B /* Tav1Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57091DAE21E40E5D00F99A7B /* Tav1Controller.swift */; };
+		57091DB121E40EF600F99A7B /* Tav2Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57091DB021E40EF600F99A7B /* Tav2Controller.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		57091DA321E4092300F99A7B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		57091DA621E4092300F99A7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		57091DA821E4092300F99A7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57091DAE21E40E5D00F99A7B /* Tav1Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tav1Controller.swift; sourceTree = "<group>"; };
+		57091DB021E40EF600F99A7B /* Tav2Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tav2Controller.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				57091DA321E4092300F99A7B /* Assets.xcassets */,
 				57091DA521E4092300F99A7B /* LaunchScreen.storyboard */,
 				57091DA821E4092300F99A7B /* Info.plist */,
+				57091DAE21E40E5D00F99A7B /* Tav1Controller.swift */,
+				57091DB021E40EF600F99A7B /* Tav2Controller.swift */,
 			);
 			path = semana2;
 			sourceTree = "<group>";
@@ -135,7 +141,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				57091DB121E40EF600F99A7B /* Tav2Controller.swift in Sources */,
 				57091D9F21E4092200F99A7B /* ViewController.swift in Sources */,
+				57091DAF21E40E5D00F99A7B /* Tav1Controller.swift in Sources */,
 				57091D9D21E4092200F99A7B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
