@@ -29,11 +29,17 @@
                                     <segue destination="BYZ-38-t0r" kind="show" id="BU9-tP-Gqy"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="download.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="hS3-iW-ZmB">
+                                <rect key="frame" x="58" y="250" width="298" height="169"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
+                            <constraint firstItem="EKF-6e-F6O" firstAttribute="top" secondItem="hS3-iW-ZmB" secondAttribute="bottom" constant="35" id="2Hv-xl-d90"/>
+                            <constraint firstItem="hS3-iW-ZmB" firstAttribute="top" relation="greaterThanOrEqual" secondItem="qsK-NQ-Nhi" secondAttribute="top" constant="20" id="6P7-zc-i7d"/>
                             <constraint firstItem="EKF-6e-F6O" firstAttribute="centerY" secondItem="qsK-NQ-Nhi" secondAttribute="centerY" id="LEq-AD-tSO"/>
                             <constraint firstItem="EKF-6e-F6O" firstAttribute="centerX" secondItem="qsK-NQ-Nhi" secondAttribute="centerX" id="gvZ-Bd-G2E"/>
+                            <constraint firstItem="hS3-iW-ZmB" firstAttribute="centerX" secondItem="qsK-NQ-Nhi" secondAttribute="centerX" id="kvB-FJ-Sm7"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="qsK-NQ-Nhi"/>
                     </view>
@@ -186,4 +192,7 @@
             <point key="canvasLocation" x="-1084.0579710144928" y="-602.00892857142856"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="download.jpeg" width="298" height="169"/>
+    </resources>
 </document>
