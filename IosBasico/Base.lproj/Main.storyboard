@@ -19,9 +19,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EKF-6e-F6O">
-                                <rect key="frame" x="100" y="396" width="215" height="104"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EKF-6e-F6O">
+                                <rect key="frame" x="135.5" y="454" width="143" height="42"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <state key="normal" title="Iniciar o Jogo">
                                     <color key="titleShadowColor" name="systemBlueColor" catalog="System" colorSpace="catalog"/>
@@ -32,6 +31,10 @@
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="EKF-6e-F6O" firstAttribute="centerY" secondItem="qsK-NQ-Nhi" secondAttribute="centerY" id="LEq-AD-tSO"/>
+                            <constraint firstItem="EKF-6e-F6O" firstAttribute="centerX" secondItem="qsK-NQ-Nhi" secondAttribute="centerX" id="gvZ-Bd-G2E"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="qsK-NQ-Nhi"/>
                     </view>
                     <navigationItem key="navigationItem" id="x3r-C4-wDf"/>
@@ -71,7 +74,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="GMB-aa-K7K">
-                                <rect key="frame" x="10" y="338" width="394" height="180"/>
+                                <rect key="frame" x="10" y="385" width="394" height="180"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="GNV-a7-1Dm">
                                         <rect key="frame" x="0.0" y="0.0" width="394" height="86"/>
@@ -163,8 +166,7 @@
                             <constraint firstItem="GMB-aa-K7K" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="5Mv-mi-4VP"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="GMB-aa-K7K" secondAttribute="trailing" constant="10" id="FjP-Ld-A7K"/>
                             <constraint firstItem="fa8-aK-Mz1" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="IUn-1j-fPi"/>
-                            <constraint firstItem="fa8-aK-Mz1" firstAttribute="top" relation="greaterThanOrEqual" secondItem="GMB-aa-K7K" secondAttribute="bottom" constant="20" id="T2Y-sc-OBz"/>
-                            <constraint firstItem="GMB-aa-K7K" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="250" id="wXX-Va-l98"/>
+                            <constraint firstItem="GMB-aa-K7K" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="v9w-Jt-uaC"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="fa8-aK-Mz1" secondAttribute="bottom" id="wn9-5t-hzn"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
