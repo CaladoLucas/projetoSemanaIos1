@@ -12,6 +12,9 @@ class ViewController: UIViewController {
     @IBOutlet weak var edtName: UITextField!
     @IBOutlet weak var edtSenha: UITextField!
     
+    var perfil = Perfil()
+    var userDatabase = UserDatabase.instance()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -30,12 +33,11 @@ class ViewController: UIViewController {
     
     override func shouldPerformSegue(withIdentifier identifier: String, sender: Any?) -> Bool {
         if identifier == "loginToInicio"{
-            if (self.edtName.text == "admin") && (self.edtSenha.text == "12345"){
+            let teste = perfil.validaLogin(nome: self.edtName.text!, senha: self.edtSenha.text!)
+            
+            if (teste == "a") || (teste == "v"){
                 enois()
-                return true
-            }
-            if (self.edtName.text == "view") && (self.edtSenha.text == "123"){
-                enois()
+                userDatabase.insert(add: teste)
                 return true
             }
             return false

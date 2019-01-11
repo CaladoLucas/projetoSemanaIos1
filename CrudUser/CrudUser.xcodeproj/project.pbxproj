@@ -14,11 +14,12 @@
 		57DACCF821E7FC61001635C4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57DACCF621E7FC61001635C4 /* LaunchScreen.storyboard */; };
 		57DACD0021E7FD49001635C4 /* download.png in Resources */ = {isa = PBXBuildFile; fileRef = 57DACCFF21E7FD49001635C4 /* download.png */; };
 		57DACD0221E7FEDF001635C4 /* Database.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57DACD0121E7FEDF001635C4 /* Database.swift */; };
-		57DACD0521E7FF31001635C4 /* Pessoas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57DACD0421E7FF31001635C4 /* Pessoas.swift */; };
+		57DACD0521E7FF31001635C4 /* Perfil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57DACD0421E7FF31001635C4 /* Perfil.swift */; };
 		57DACD0721E8037F001635C4 /* InicioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57DACD0621E8037F001635C4 /* InicioViewController.swift */; };
 		57DACD0C21E80E31001635C4 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57DACD0B21E80E31001635C4 /* TableViewController.swift */; };
 		57DACD0E21E80FA7001635C4 /* AdicionarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57DACD0D21E80FA7001635C4 /* AdicionarViewController.swift */; };
 		57DACD1021E814D7001635C4 /* MyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57DACD0F21E814D7001635C4 /* MyTableViewCell.swift */; };
+		57DACD1221E821D8001635C4 /* UserDatabase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57DACD1121E821D8001635C4 /* UserDatabase.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,11 +32,12 @@
 		57DACCF921E7FC61001635C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		57DACCFF21E7FD49001635C4 /* download.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = download.png; sourceTree = SOURCE_ROOT; };
 		57DACD0121E7FEDF001635C4 /* Database.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Database.swift; sourceTree = "<group>"; };
-		57DACD0421E7FF31001635C4 /* Pessoas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pessoas.swift; sourceTree = "<group>"; };
+		57DACD0421E7FF31001635C4 /* Perfil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Perfil.swift; sourceTree = "<group>"; };
 		57DACD0621E8037F001635C4 /* InicioViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InicioViewController.swift; sourceTree = "<group>"; };
 		57DACD0B21E80E31001635C4 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		57DACD0D21E80FA7001635C4 /* AdicionarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdicionarViewController.swift; sourceTree = "<group>"; };
 		57DACD0F21E814D7001635C4 /* MyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTableViewCell.swift; sourceTree = "<group>"; };
+		57DACD1121E821D8001635C4 /* UserDatabase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDatabase.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,7 +87,8 @@
 			children = (
 				57DACD0F21E814D7001635C4 /* MyTableViewCell.swift */,
 				57DACD0121E7FEDF001635C4 /* Database.swift */,
-				57DACD0421E7FF31001635C4 /* Pessoas.swift */,
+				57DACD0421E7FF31001635C4 /* Perfil.swift */,
+				57DACD1121E821D8001635C4 /* UserDatabase.swift */,
 			);
 			path = model;
 			sourceTree = "<group>";
@@ -175,9 +178,10 @@
 			files = (
 				57DACD0221E7FEDF001635C4 /* Database.swift in Sources */,
 				57DACD1021E814D7001635C4 /* MyTableViewCell.swift in Sources */,
+				57DACD1221E821D8001635C4 /* UserDatabase.swift in Sources */,
 				57DACD0C21E80E31001635C4 /* TableViewController.swift in Sources */,
 				57DACCF021E7FC60001635C4 /* ViewController.swift in Sources */,
-				57DACD0521E7FF31001635C4 /* Pessoas.swift in Sources */,
+				57DACD0521E7FF31001635C4 /* Perfil.swift in Sources */,
 				57DACD0E21E80FA7001635C4 /* AdicionarViewController.swift in Sources */,
 				57DACD0721E8037F001635C4 /* InicioViewController.swift in Sources */,
 				57DACCEE21E7FC60001635C4 /* AppDelegate.swift in Sources */,
